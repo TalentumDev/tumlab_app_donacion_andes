@@ -180,12 +180,12 @@ export const headerMenulist = [
   {
     id: "talentum-resources",
     name: `${header["header-category-talentum-resources"]}`,
-    is_enable: true,
+    is_enable: false,
   },
   {
     id: "digital-tools",
     name: `${header["header-category-digital-tools"]}`,
-    is_enable: true,
+    is_enable: false,
   },
   {
     id: "simulators",
@@ -241,7 +241,7 @@ export const apps = [
       {
         id: "steam-classrooms-valle",
         order: 4,
-        is_show: true,
+        is_show: false,
         thumbnail: "./assets/recursos-talentum/steam-valle_thumbnail.webp",
         video:
           "./assets/recursos-talentum/videos/recursos-talentum-steam-valle.mp4",
@@ -258,7 +258,7 @@ export const apps = [
       {
         id: "segvial",
         order: 1,
-        is_show: true,
+        is_show: false,
         thumbnail: "./assets/herramientas-digitales/segvial.png",
         bg:
           "./assets/herramientas-digitales/segvial_bg.png",
@@ -269,7 +269,7 @@ export const apps = [
       {
         id: "segvialsi",
         order: 2,
-        is_show: true,
+        is_show: false,
         thumbnail: "./assets/herramientas-digitales/segvialsi.png",
         bg:
           "./assets/herramientas-digitales/segvialsi_bg.png",
